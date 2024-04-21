@@ -1,0 +1,597 @@
+.image-sec-det{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+.image-container-det{
+    width: 90%;
+}
+.image-list-inner{
+    display: grid;
+  grid-template-columns: 1fr 2fr; 
+  grid-gap: 20px; 
+}
+
+.gallery-content{
+    display: flex;
+    flex-direction: column;
+}
+.Big-image-d img{
+    max-width: 50vw;
+    max-height: auto;
+    margin-bottom: -100px;
+}
+button.view-all-photos{
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px 23px 15px 23px;
+    color: rgba(34, 41, 51, 1);
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    font-family: 'League Spartan';
+
+    
+}
+.small-image-d{
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 20px;
+}
+.small-image-d img{
+    width: 20vw;
+    height: 13vw;
+  
+}
+/* Add this CSS to PropertiesDetail.css */
+  #toggleButton {
+    cursor: pointer;
+    color: #AC9576; 
+    font-size: 16px;
+    font-family: 'League Spartan';
+    margin-top: 15px;
+  }
+  .detail-pro-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail-pro-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 100px;
+  }
+   .detail-pro-des h1{
+    font-size: 32px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #222933;
+   }
+   .detail-pro-des h6{
+    font-family: 'League Spartan';
+    font-weight: 400;
+    font-size: 16px;
+    color: #364250;
+    margin-bottom: 30px;
+   }
+   .card-des-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+   }
+   .card-des-detail img{
+    width: 24px;
+   }
+   .card-des-detail span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+   }
+   .detail-pro-des h2{
+    font-size: 24px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: #364250;
+    margin-top: 50px;
+    margin-bottom: 15px;
+   }
+   .space-detail{
+    color: #364250;
+    font-family: 'League Spartan';
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+   }
+   .space-for-space{
+    margin-bottom: 15px;
+   }
+   .amenity-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, auto); 
+    row-gap: 20px; 
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.amenity-single-detail{
+    font-family: 'League Spartan';
+    font-size: 17px;
+    font-weight: 300;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #364250;
+}
+.map-detail{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    height: 530px;
+}
+.map-detail-des{
+    width: 90%;
+ 
+}
+.map-detail-des h2{
+    margin-bottom: 15px;
+    font-family: 'Cinzel';
+    font-size: 24px;
+    font-weight: 400;
+}
+.detail-map-sec{
+    display: flex;
+    justify-content: center;
+}
+.detail-map-container{
+    width: 90%;
+}
+.detail-map-container h3{
+    color: #364250;
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.map-map{
+    width: 90% !important;
+    height: 450px !important;
+}
+.pay-detail {
+    width: 585px;
+    height: 100%;
+}
+.date-picker-container {
+    display: flex;
+}
+.gallery-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  .gallery-content img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .view-all-photos {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .form-data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+
+
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(200, 200, 202, 1) ;
+    padding: 13px 16px;
+}
+input{
+    border: none;
+}
+.pay-detail{
+    background: #FFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+select#guests {
+    border: none;
+}
+.pay-detail h2{
+    font-family: 'League Spartan';
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.night-booking{
+    font-size: 17px;
+    font-family: 'Cinzel';
+    color: rgba(34, 41, 51, 1);
+    font-weight: 400;
+    
+}
+.form-group label{
+    color: rgba(172, 149, 118, 1);
+    font-family: 'Cinzel';
+    font-size: 16px;
+    font-weight: 700;
+}
+button.btn.btn-primary{
+    width: 100%;
+    background: rgba(172, 149, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    margin-top: 36px;
+    padding: 16px;
+}
+.desc-booking{
+    margin-top: 30px;
+}
+.desc-booking-detail:nth-child(2){
+    margin-top: 20px;
+}
+.desc-booking-detail:nth-child(3){
+    margin-top: 20px;
+}
+.desc-booking-detail:nth-child(4){
+    margin-top: 20px;
+}
+.desc-booking-detail:nth-child(5){
+    margin-top: 20px;
+}
+.desc-booking-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.desc-booking-detail p,.night-booking-tilte{
+    font-family: 'League Spartan';
+    font-size: 17px;
+    color: rgba(34, 41, 51, 1);
+}
+.desc-booking-detail:nth-child(6) p,.reservation{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(34, 41, 51, 1);
+}
+.desc-booking-detail:nth-child(6){
+    margin-top: 20px;
+}
+.inner-details{
+    margin-top: 30px;
+}
+.amenity-detail-single path{
+    color: #364250;
+    display: block;
+}
+.amenity-detail-single{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.checkout-mobile-sec{
+    display: none;
+}
+.check-in-out-mob{
+    border:1px solid rgba(200, 200, 202, 1) ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* .check-in-out-mob-container{
+    display: flex;
+
+} */
+.in-mobile-space{
+    margin-bottom: 20px;
+}
+.form-group-mobile{
+    border-radius: 10px 10px 0 0;
+}
+button.react-datepicker__close-icon{
+    display: none;
+}
+.fa-washer::after, .fa-dryer::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(/laundry-svgrepo-com.svg);
+    display: block;
+    background-size: cover;
+}
+.fa-hair-dryer{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(/hair-dryer-svgrepo-com.svg);
+    display: block;
+    background-size: cover;
+}
+.fa-smoke{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/smoke-detector-svgrepo-com (1).svg');
+    display: block;
+    background-size: cover;
+}
+.infants{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/baby-bottle-2-svgrepo-com.svg');
+    display: block;
+    background-size: cover;
+}
+.fa-grill{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/grill-svgrepo-com (1).svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-ironing-board{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/iron-board-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-toaster{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/toaster-1-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-dishwasher{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/dishwasher-2-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-microwave{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/microwave-2-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-oven{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/oven-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-stove{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/stove-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-refrigerator{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/refrigerator-pictogram-3-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-utensils-alt{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/kitchen-utensils-toys-couple-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Garage{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/garage-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Winery{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/winery-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Foosball{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/football-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Spices{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/spices-salt-pepper-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.emergency{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/ambulance-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Police{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/police-car-9-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover; 
+}
+.fa-fence{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/massage-spa-body-treatment-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa-closet{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/wardrobe-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Board-games{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/board-games-set-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.Ceiling-fan{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('/ceiling-fan-off-svgrepo-com.svg') ;
+    display: block ;
+    background-size: cover;
+}
+.fa{
+    color: #364250 !important;
+}
+.form-group-mobile .react-datepicker{
+    left: 50px;
+}
+@media screen and (max-width: 1024px){
+    .image-list-inner{
+        display: inline;
+    }
+    .small-image-d{
+        display: none;
+    }
+    .Big-image-d img{
+        max-width: none !important;
+        width: 110%;
+        margin-bottom: -60px;
+    }
+    button.view-all-photos{
+        margin-left: 15px;
+    }
+    .Big-image-d {
+        width: 90%;
+    }
+    .pay-detail{
+        display: none;
+    }
+    .detail-pro-sec{
+        width: 100%;
+    }
+    .image-sec-det {
+        padding: 70px 0;
+    }
+    .detail-pro-des h1{
+        font-size: 30px;
+    }
+    .amenity-detail{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .check-in-out-mob button{
+        width: 100% !important;
+    }
+    .checkout-mobile-sec {
+        background: #fff;
+        display: inline;
+        position: fixed; 
+        bottom: 0;      
+        left: 0;        
+        width: 100%;    
+        z-index: 1000;   
+     
+      }
+      
+    .amenity-detail{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .check-in-out-mob button{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .gallery-content{
+        padding: 0  ;
+    }
+    .map-detail {
+        margin-top: 50px;
+    }
+    .checkout-mobile-sec {
+        background: #fff;
+        display: inline;
+        position: fixed; 
+        bottom: 0;      
+        left: 0;        
+        width: 100%;    
+        z-index: 1000;   
+     
+      }
+      
+    .amenity-detail{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .check-in-out-mob button{
+        width: 100% !important;
+    }
+}

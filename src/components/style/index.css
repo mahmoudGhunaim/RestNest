@@ -1,0 +1,624 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: local('League Spartan'), url('../../../Fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('woff2');
+    font-weight: 3  00;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lavishly Yours';
+    src: local('Lavishly Yours'), url('../../../Fonts/Lavishly_Yours/LavishlyYours-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+}
+.hero-home-page{
+    height: 700px;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background: rgba(248, 248, 248, 1);
+}
+.Home-Head-sec{
+    background: rgba(34, 41, 51, 1);
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.Home-Head-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.Home-left-sec{
+    width: 600px;
+}
+.Home-left-sec h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 400;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+}
+.Home-left-sec span{
+    color: rgba(172, 149, 118, 1);
+    font-size: 64px;
+    font-family: 'Lavishly Yours', serif;
+    position: absolute;
+    top: 160px;
+    rotate: -12deg;
+}
+.Home-right-sec{
+    width: 500px;
+    text-align: center;
+}
+.Home-right-sec p{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Spartan';
+    width: 100%;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.Home-right-sec button{
+    background: rgba(172, 149, 118, 1);
+    padding: 16px 32px;
+    border: none !important;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+}
+.sec-img-home img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.description-home-sec{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.description-home-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.description-home-title h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+}
+.description-home-line{
+    border-top:1px solid rgba(172, 149, 118, 1) ;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.description-home-p p{
+    font-family: 'League Spartan', serif;
+    font-size: 18px;
+    color: rgba(34, 41, 51, 1);
+    text-align: center;
+    line-height: 30px;
+}
+.description-home-p p:nth-child(1){
+    margin-bottom: 50px;
+}
+/*Card*/
+section.card-sec-home {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.card-container-home{
+    width: 90%;
+}
+.card-title-home h1{
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    text-align: center;
+}
+.card-content-home{
+    margin-top: 80px;
+    display: flex;
+    grid-gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards-home {
+    width: 460px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+     border-width: 4px;
+     border-style: solid;
+     border-image: linear-gradient(348.49deg, #AC9576 , rgba(172, 149, 118, 0),#AC9576,rgba(172, 149, 118, 0)) 1;
+     position: relative;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     color: darkblue;
+}
+.cards-home img{
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+.cards-home h1{
+    margin-top: 33px;
+    margin-bottom: 43px;
+    font-size: 26px;
+    width: 70%;
+    font-family: 'Cinzel', serif;
+    color: rgba(34, 41, 51, 1);
+    
+}
+.cards-home p{
+    font-size: 18px;
+    width: 70%;
+    line-height: 30px;
+    font-family: 'League Spartan', serif;
+    color: rgba(34, 41, 51, 1);
+}
+/*slider*/
+.slider-container-home{
+    padding: 120px 0;
+    max-width: max-content;
+}
+
+.slider-title-home-con {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -70px;
+
+}
+.slider-title-home{
+    width: 90%;
+}
+.slider-title-home h1{
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    width: 50%;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: url('/arrow-right.svg') !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: url('/arrow-left.svg') !important;
+}
+/* .r-button {
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 0;
+}
+.swiper-horizontal{
+    overflow: visible !important;
+}*/
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.slider-btn{
+    background: none;
+    border: none;
+}
+.flexCenter {
+    margin-top: -150px;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 95%;
+} 
+.swiper.swiper-initialized.swiper-horizontal,.swiper-wrapper {
+    display: flex;
+}
+.Premier-sec{
+    padding: 70px 0;
+    background: #F8F4F1;
+    display: flex;
+    justify-content: center;
+}
+.Premier-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Premier-p{
+    width: 45%;
+}
+.Premier-h1 {
+    margin-bottom: 30px;
+}
+.Premier-h1 h1{
+    font-family: 'Cinzel';
+    font-size: 50px;
+    color: #222933;
+    width: 680px;
+    font-weight: 400;
+}
+.Premier-h1 h1 span{
+    font-family: 'Lavishly Yours';
+    color: #AC9576;
+
+    rotate: -12deg;
+    font-size: 48px;
+    position: absolute;
+    
+    font-weight: 400;
+}
+.Premier-p p{
+    font-family: 'League Spartan';
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 500px;
+}
+
+.Premier-container{
+    width: 90%;
+}
+.Premier-card-big{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 50%;
+    height: 620px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url("/Waterfront Grandeur.jpg");
+}
+.Premier-card-big::before{
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 620px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+}
+.Premier-card-big h3{
+    color: #FCFCFC;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left:24px ;
+    z-index: 111;
+    text-transform: uppercase;
+}
+.card-des-big{
+    margin-left: 24px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    z-index: 11111;
+}
+.Premier-card-big a{
+    z-index: 111;
+}
+.Premier-card-big button{
+    margin-top: 20px;
+    border: none;
+    background: #AC9576;
+    padding: 16px 32px;
+    color: #F8F4F1;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.card-des-big span {
+    color: #FCFCFC;
+    font-family: 'League Spartan';
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.Premier-card{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.Premier-card-small {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Premier-card-small-f{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.Premier-card-small-f:nth-child(1){
+    background: url("/Gardenside Getaway.jpeg");
+    background-size: cover;
+}
+.Premier-card-small-f:nth-child(2){
+    background: url("/Serenity Poolside Retreat.jpg");
+    background-size: cover;
+}
+.Premier-card-small-f::before{
+    content: '';
+    position: absolute;
+    width: 43.2%;
+    height: 300px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+}
+.Premier-card-small-f h3{
+    z-index: 11111;
+    color: #FCFCFC;
+    font-family: 'Cinzel';
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 14px;
+}
+.Premier-card-small-f a{
+    z-index: 1111;
+}
+.Premier-card-small-f button{
+    background: #AC9576;
+    z-index: 1111;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    font-family: 'Cinzel';
+    color: #F8F4F1;
+    font-weight: 400;
+    font-size: 17px;
+}
+.Premier-card-small-f:nth-child(1){
+    margin-bottom: 20px;
+}
+.section.card-sec-home{
+    background: #F8F8F8 !important;
+}
+.slider-container-home{
+    background: #FFFFFF;
+}
+.space-line{
+    margin-top: 40px;
+}
+main{
+    margin-top: 85px;
+}
+.btn-sliider {
+    display: block !important;
+    width: 95vw !important;
+    text-align: end;
+    margin-right: 60px;
+    height: 100px;
+}
+.btn-sliider button{
+    background: none !important;
+    border: none;
+}
+@media screen and (max-width: 1260px){
+    .Premier-p p{
+        width: 100%;
+    }
+    .Premier-h1 h1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .btn-sliider{
+        margin-bottom: 50px;
+        margin-top: -50px;
+    }
+    main{
+        margin-top: 74px;
+    }
+    .Premier-card-small{
+        width: 100% !important;
+    }
+    .slider-container-home .swiper-slide{
+        margin-top: 80px;
+    }
+    .Home-Head-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Home-left-sec{
+        width: 100%;
+    }
+    .Home-left-sec h1{
+        font-size: 38px;
+        width: 60%;
+    }
+    .Home-left-sec span{
+        font-size: 38px;
+    }
+    .Home-right-sec{
+        width: 100%;
+    }
+    .Home-right-sec p{
+        width: 60%;
+    }
+    .lmpm-search-fields.DateRangePickerInput.DateRangePickerInput_1,.slider-container{
+        flex-direction: column;
+    }
+    .card-content-home{
+        flex-direction: column;
+}
+.slider-title-home h1{
+    width: 100%;
+    font-size: 30px;
+}
+.slider-title-home-con{
+    margin-bottom: -20px;
+}
+.flexCenter{
+    margin-bottom: 50px;
+}
+.Premier-title{
+    flex-direction: column;
+}
+.Premier-p {
+    margin-bottom: 50px;
+    width: 100% !important;
+}
+.Premier-card{
+    flex-direction: column;
+    gap: 20px;
+}
+.Premier-h1 h1{
+    width: 90%;
+}
+.Premier-card-big{
+    width: 100%;
+}
+.Premier-card-big::before{
+    width: 90%;
+}
+.Premier-card-small-f{
+    width: 100%;
+}
+.Premier-card-small-f::before{
+    width: 90%;
+}
+.cards-home{
+    width: 90%;
+}
+}
+@media screen and (max-width: 767px) {
+    .space-line{
+        margin-top: 40px;
+    }
+    .Premier-p{
+        width: 100%;
+    }
+    .card-title-home h1{
+        font-size: 30px;
+    }
+    .card-content-home{
+        margin-top: 40px;
+        grid-gap: 20px;
+    }
+    .sec-img-home img {
+        height: 400px;
+    }
+    .cards-home{
+        width: 85%;
+    }
+    section.card-sec-home,.description-home-sec,.slider-container-home,.Home-Head-sec{
+        padding: 50px 0;
+    }
+    .Home-left-sec span{
+        top: 130px;
+    }
+    .slider-title-home-con {
+        margin-bottom: -10px;
+    }
+    .flexCenter{
+        margin-bottom: 80px;
+    }
+    .Home-Head-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Home-left-sec h1{
+        font-size: 38px;
+        width: 100%;
+    }
+    .Home-left-sec span{
+        font-size: 38px;
+    }
+    .Home-right-sec{
+        width: 100%;
+    }
+    .Home-right-sec p{
+        width: 100%;
+    }
+    .lmpm-search-fields.DateRangePickerInput.DateRangePickerInput_1{
+        flex-direction: column;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .description-home-container{
+        width: 90%;
+    }
+    .description-home-title h1{
+        font-size: 30px;
+    }
+    .description-home-line{
+        width: 250px;
+    }
+    .card-content-home{
+        flex-direction: column;
+}
+.cards-home p{
+    width: 100%;
+}
+.cards-home h1{
+    width: 100%;
+}
+.slider-title-home h1{
+    font-size: 30px;
+    width: 100%;
+}
+.slider-container{
+    flex-direction: column;
+}
+.slider-img img{
+    width: 100%;
+}
+
+.Premier-title{
+    flex-direction: column;
+}
+.Premier-h1 h1{
+    width: 90%;
+    font-size: 30px;
+}
+.Premier-h1 h1 span{
+    font-size: 30px;
+
+
+}
+.Premier-p p{
+    width: 90%;
+}
+.Premier-card{
+    flex-direction: column;
+}
+.Premier-card-big{
+    width: 100%;
+}
+.Premier-card-big::before{
+    width: 90%;
+}
+.Premier-card-small-f{
+    width: 100%;
+}
+.Premier-card-small-f::before{
+    width: 90%;
+}
+.slider-container-home .swiper-slide {
+    margin-top: 70px;
+}
+  }

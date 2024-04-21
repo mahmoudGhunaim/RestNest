@@ -1,0 +1,47 @@
+.FooterSec-sec{
+    background: url('/Pattern_1 1.svg'),rgba(54, 66, 80, 1);
+    padding: 100px 0;
+}
+.FooterSec-content h1{
+    font-size: 64px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel', serif;
+}
+.FooterSec-content h2{
+    font-size: 64px;
+    font-family: 'Lavishly Yours', serif;
+    rotate: 350deg;
+    color: rgba(172, 149, 118, 1);
+    font-weight: 400;
+}
+.FooterSec-content button{
+    background: rgba(172, 149, 118, 1);
+    padding: 20px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    margin-top: 50px;
+    border: none;
+
+}
+.FooterSec-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media screen and (max-width: 1024px){
+    .FooterSec-sec{
+         background-position: bottom;
+         background-repeat: no-repeat;
+    }
+    .FooterSec-content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .FooterSec-content h2{
+        font-size: 30px;
+        margin-top: -15px;
+    }
+}

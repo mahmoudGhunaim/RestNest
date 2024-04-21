@@ -1,0 +1,131 @@
+.RentalAgreement-hero{
+    padding-bottom: 200px;
+}
+.hero-content-Management span{
+        font-family: 'League Spartan';
+        font-size: 18px;
+        font-weight: 300;
+        color: #222933; 
+}
+.RentalAgreement-sec{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+.RentalAgreement-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 60px;
+}
+.RentalAgreement-list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    box-shadow: rgba(149, 157, 165, 0.01) 0px 8px 2px;
+    padding: 30px;
+}
+.RentalAgreement-list h2{
+    color: #222933;
+    font-family: 'League Spartan';
+    font-size: 32px;
+    font-weight: 400;
+    background: #FFF;
+    border-radius: 20px;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 20px 10px;
+}
+.RentalAgreement-list a{
+    width: fit-content;
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+    color: #364250;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.RentalAgreement-list a:focus{
+    border-bottom: 1px solid #AC9576;
+    color: #AC9576;
+    padding-bottom: 5px;
+}
+.RentalAgreement-data{
+    width: 50%;
+    overflow-x: auto;
+    height: 800px;
+    scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.RentalAgreement-data::-webkit-scrollbar {
+    display: none; 
+}
+.RentalAgreement-single-data:nth-child(1){
+    margin-top: 0px;
+}
+.RentalAgreement-single-data{
+    margin-top: 60px;
+}
+.RentalAgreement-single-data h1{
+    color: rgba(54, 66, 80, 1);
+    font-family: 'Cinzel';
+    font-size: 32px;
+    font-weight: 400;
+}
+.RentalAgreement-single-data h3{
+    font-family: 'League Spartan';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #1e2228;
+}
+.RentalAgreement-single-data h4{
+    font-family: 'League Spartan';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #242b35;
+}
+.RentalAgreement-single-data p,.RentalAgreement-single-data li{
+    font-family: 'League Spartan';
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #222933;
+}
+.gary-line{
+    border-top: 0.5px solid rgb(190, 170, 143);
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .RentalAgreement-container{
+        flex-direction: column;
+    }
+    .RentalAgreement-list{
+        width: 90%;
+    }
+    .RentalAgreement-data{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .RentalAgreement-container{
+        flex-direction: column;
+    }
+    .RentalAgreement-list{
+        width: 80%;
+    }
+    .RentalAgreement-data{
+        width: 100%;
+        
+    }
+    .RentalAgreement-hero{
+        padding-bottom: 50px;
+    }
+    .RentalAgreement-sec{
+        padding: 50px 0;
+    }
+}

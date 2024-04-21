@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Cinzel';
+  src: local('Cinzel'), url('../../../Fonts/Cinzel/Cinzel-VariableFont_wght.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.header-sec{
+  background: #222933;
+  display: flex;
+  justify-content: center;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+  transition: top 0.3s; 
+  z-index: 99999999; 
+}
+.header-sec.hide {
+  top: -100px; 
+}
+
+.header-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-family{
+  display: flex;
+  gap: 40px;
+  font-family: 'Cinzel', serif;
+}
+.link-family a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.login-sec{
+  background: rgba(172, 149, 118, 1);
+  padding: 30px;
+}
+.login-sec a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none ;
+  font-size: 18px;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+.footer {
+  background: rgba(34, 41, 51, 1);
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.footer-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 80px;
+}
+.sec-footer a ,.navBar-hamburger a{
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  color: rgba(245, 245, 245, 1);
+}
+.sec-footer-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec-footer-logo img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.sec-footer-logo a{
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  color: rgba(245, 245, 245, 1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  line-height: 25px;
+}
+.mobile-menu{
+  display: none;
+}
+button.btn.btn-danger {
+  background: none;
+  border: none;
+}
+.copyright {
+  width: 90%;
+  border-top: 1px solid rgba(245, 245, 245, 0.2);
+}
+.copyright p{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px; 
+  font-family: 'Cinzel';
+  color: rgba(245, 245, 245, 1); 
+}
+.copyright p a{
+  color: rgba(245, 245, 245, 1); 
+
+}
+.copyright p:nth-child(2){
+  padding-top: 15px;
+}
+@media screen and (max-width: 1024px) {
+  .mobile-menu{
+    display: inline;
+  }
+  .link-family,.login-sec{
+    display: none;
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  
+  .sec-footer{
+    margin-top: 30px;
+  }
+  .sec-footer:nth-child(1){
+    margin-top: 40px !important;
+  }
+  .navBar-hamburger{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .modal-content {
+    position: fixed; /* Changed from absolute to fixed to ensure it's positioned relative to the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    top: 0; /* Align to the top edge of the viewport */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    line-height: 1.4;
+    background: rgba(34, 41, 51, 1);
+    padding: 0;
+    border-radius: 3px;
+    transform: translate(0, 0); /* Updated to ensure it doesn't move from top left corner */
+}
+button.btn-close{
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+button.btn-close::before{
+  content: url(/xIcon.svg) !important;
+
+}
+button.btn.btn-primary{
+  width: 100%;
+  
+}
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.logo-sec-mob{
+ 
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+.login-mob{
+  width: 80%;
+  margin-top: 40px;
+  background: rgba(172, 149, 118, 1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.login-mob a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none ;
+  font-size: 18px;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  text-align: center;
+}
+.header-sec{
+  padding-top: 20px;
+}
+.sec-footer{
+  gap: 30px;
+}
+.check-in-out-mob button{
+  width: 100% !important;
+}
+}

@@ -1,0 +1,216 @@
+.blog-des-sec{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.hero-sec-blog{
+    padding: 0 !important; 
+    padding-top: 150px  !important;
+    
+}
+.hero-content-blog{
+    padding-bottom: 150px;
+}
+.blog-des-container{
+    width: 90%;
+}
+.blog-des-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-des-content span{
+    color:#AC9576;
+    font-size: 16px;
+    font-family: 'League Spartan';
+    text-transform: uppercase;
+}
+.blog-des-content h1{
+    color: #364250;
+    font-size: 50px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+
+}
+.blog-des-content p{
+    margin-top: 60px;
+    width: 80%;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    line-height: 30px;
+    color: #222933;
+}
+.blog-list-area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.blog-list-body{
+    width: 90%;
+}
+.blog-posts-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.blog-post-info{
+    width: 640px;
+    height: 550px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    align-items: flex-start;
+    position: relative;    
+   flex-direction: column;
+    justify-content: flex-end;
+}
+.blog-post-info::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+}
+.blog-post-info h2{
+    z-index: 1000;
+    width: 70%;
+    margin-left: 24px;
+    margin-bottom: 20px;
+    color: #FCFCFC;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Cinzel';
+}
+.blog-post-info a{
+    z-index: 1000;
+
+}
+.blog-post-info button{
+    z-index: 1000;
+    margin-bottom: 47px;
+    margin-left: 24px;
+    background: #AC9576;
+    border: none;
+    padding: 16px 32px;
+    font-family: 'Cinzel';
+    color: #F8F4F1;
+    font-size: 20px;
+}
+
+.blog-post-info-loop{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.other-posts-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 550px;
+    overflow-y: auto;
+}
+
+.blog-post-info-loop img{
+    width: 280px;
+    height: 168px;
+    object-fit: cover;
+}
+.blog-post-info-loop h2{
+    color: #000000;
+    font-family: 'Cinzel';
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.blog-post-info-loop button{
+    background: #AC9576;
+    padding: 8px 16px;
+    color: #F8F4F1;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Cinzel';
+    border: none;
+}
+.other-posts-sec::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.other-posts-sec::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.other-posts-sec::-webkit-scrollbar-thumb
+{
+	background-color: #AC9576;
+	border: 2px solid #AC9576;
+}
+
+@media screen and (max-width: 1024px){
+    .other-posts-sec::-webkit-scrollbar-track{
+        box-shadow: none;
+    }
+    .other-posts-sec::-webkit-scrollbar{
+        margin-top: 10px;
+    }
+    
+    .blog-des-sec{
+        padding: 50px 0 ;
+    }
+    .blog-posts-list{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .blog-post-info-loop{
+        flex-direction: column;
+    }
+    .other-posts-sec{
+        flex-direction: row;
+        height: auto;
+        overflow-x: auto;
+    }
+    .blog-post-info-loop h2{
+        width: 90%;
+    }
+    .blog-post-info-loop{
+        align-items: start;
+    }
+    .blog-post-info-loop img{
+        width: 305px;
+    }
+    .blog-post-info{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .other-posts-sec::-webkit-scrollbar{
+        margin-top: 10px;
+    } 
+    .blog-des-content p{
+        margin-top: 20px;
+    }
+    .blog-des-content h1{
+        font-size: 30px;
+    }
+    .blog-des-content p{
+        width: 100%;
+    }
+    .blog-list-body{
+        width: 90%;
+    }
+    .blog-post-info{
+        width: 90vw !important;
+
+    }
+    .other-posts-sec{
+        width: 90vw !important;
+    }
+    .blog-post-info{
+        height: 400px;
+    }
+}

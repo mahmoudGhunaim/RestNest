@@ -1,0 +1,461 @@
+.hero-sec-Management{
+    background: url('/Pattern_3 1.svg'),rgba(34, 41, 51, 1);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+.hero-container-Management{
+    width: 90%;
+}
+.hero-content-Management h1{
+
+    font-size: 64px;
+    text-align: center;
+    width: 800px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.hero-content-Management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-content-Management p{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 50%;
+}
+.hero-content-Management button{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background: rgba(172, 149, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    border: none;
+    font-weight: 300;
+    padding: 16px 32px;
+}
+.hero-content-Management span{
+    font-size: 64px;
+    font-family: 'Lavishly Yours';
+    color: rgba(172, 149, 118, 1);
+    position: absolute;
+    position: absolute;
+    top: 250px;
+    right: 25%;
+    rotate: -8.363deg;
+}
+.Service-Description-sec{
+    padding: 120px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.Service-Description-contanier{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    gap: 60px;
+}
+.Service-Description-des span{
+    color: #AC9576;
+    font-family: 'League Spartan';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.Service-Description-des {
+    margin-top: 20px;
+    width: 750px;
+}
+.Service-Description-des h1{
+    font-size: 50px;
+    font-family: 'Cinzel';
+    color: #364250;
+    width: 100%;
+}
+.Service-Description-des p{
+    margin-top: 30px;
+    color: #222933;
+    font-family: 'League Spartan';
+    font-weight: 300;
+    line-height: 25px;
+}
+.Features-sec{
+    padding: 120px 0;
+    background:#F8F4F1;
+    display: flex;
+    justify-content: center;
+}
+.Features-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.We-hear-you-title{
+    display: flex;
+    flex-direction: column;
+}
+.We-hear-you-title h3{
+    color: #364250;
+    font-family: 'Lavishly Yours';
+    font-size: 48px;
+    font-weight: 400;
+    rotate: -12deg;
+    z-index: 11;
+    margin-top: -65px;
+}
+.We-hear-you-title .css-1c35hjw-MuiPaper-root-MuiAccordion-root.Mui-expanded:first-of-type{
+    margin-top: 65px !important;
+}
+.Features-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Features-title span{
+    color: #AC9576;
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Features-title h1{
+    color: #364250;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 50px;
+    width: 80%;
+}
+.Features-cards {
+    margin-top:60px ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    row-gap: 60px;
+    margin-bottom: 60px;
+  }
+.Features-single-card{
+    border: 1px solid #AC9576;
+    padding: 32px ;
+    text-align: center;
+}
+.Features-single-card h6{
+    font-size: 18px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: #222933;
+    margin-top: 30px;
+}
+.Features-single-card p{
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'League Spartan';
+    line-height: 25px;
+    color: #364250;
+    margin-top: 30px;
+}
+.Features-container button{
+    background: rgba(172, 149, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    border: none;
+    font-weight: 300;
+    padding: 16px 32px;
+}
+.We-hear-you-sec{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+.We-hear-you-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 90%;
+}
+.We-hear-you-title div#panel1-header,div#panel2-header,div#panel3-header{
+    background: #AC9576;
+}
+path{
+    color: white;
+}
+div[aria-controls*="panel"] div{
+    color: #FCFCFC;
+    font-size: 24px;
+    font-family: 'Cinzel';
+
+}
+#panel1-content div,#panel2-content div,#panel3-content div{
+    color: #02275B;
+    font-size: 18px;
+    font-family: 'League Spartan';
+    line-height: 25px;
+}
+.We-hear-you-title .MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root{
+    box-shadow: none;
+    border: 1px solid #AC9576; 
+}
+.our-solution-sec{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    background: #F8F4F1;
+}
+.our-solution-container{
+    width: 90%;
+}
+.our-solution-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-solution-content span{
+    text-transform: uppercase;
+    color: #AC9576;
+    font-family: 'League Spartan';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.our-solution-content h1{
+    color: #02275B;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Cinzel';
+    width: 60%;
+    text-align: center;
+}
+.our-solution-content p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'League Spartan';
+    line-height: 25px;
+    text-align: center;
+    width: 90%;
+    margin-top: 60px;
+}
+.The-Process-sec{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.The-Process-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.The-Process-title span{
+    color: #AC9576;
+    font-size: 16px;
+    font-family: 'League Spartan';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.The-Process-title h1{
+    text-transform: uppercase;
+    color: #02275B;
+    font-size: 50px;
+    font-family: 'Cinzel';
+    width: 65%;
+    font-weight: 400;
+}
+.The-Process-title p{
+    color: #222933;
+    font-size: 18px;
+    font-family: 'League Spartan';
+    font-weight: 300;
+    width: 65%;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.Qualification-sec{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    background: #F8F4F1;
+}
+.Qualificationcontainer{
+    width: 90%;
+}
+.Qualification-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Qualification-content span{
+    text-transform: uppercase;
+    color: #AC9576;
+    font-family: 'League Spartan';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.Qualification-content h1{
+    color: #02275B;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Cinzel';
+    width: 60%;
+    text-align: center;
+}
+.Qualification-p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'League Spartan';
+    line-height: 25px;
+    text-align: center;
+    width: 90%;
+    margin-top: 60px;
+}
+.Qualification-sec-items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    margin-top: 60px;
+}
+.Qualification-single-sec {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.Qualification-single-sec p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'League Spartan';
+    line-height: 25px;
+}
+.mobile-img-process{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .hero-sec-Management{
+        background-size: 100%;
+    background-position: bottom;
+    }
+    .Service-Description-sec{
+        justify-content: center;
+    }
+    .Service-Description-contanier{
+        width: 90%;
+    }
+    .Service-Description-des{
+        width: 100%;
+
+    }
+    .Features-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-content-Management h1{
+        text-align: center;
+        font-size: 38px;
+        width: 100%;
+    }
+    .hero-content-Management span{
+        font-size: 38px;
+    }
+    .hero-content-Management p{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-content-Management button{
+        font-size: 15px;
+        padding: 16px 7px;
+        width: 100%;
+    }
+    .Service-Description-des h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .Service-Description-contanier{
+        flex-direction: column;
+    }
+    .Service-Description-img img{
+        width: 95vw;
+    }
+    .Features-title h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .We-hear-you-container{
+        flex-direction: column;
+    }
+    .We-hear-you-img img{
+        width: 95vw;
+    }
+    div[aria-controls*="panel"] div{
+        font-size: 16px;
+    }
+    .our-solution-content h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .The-Process-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+   
+    .The-Process-title h1{
+        font-size: 24px;
+        width: 100%;
+    }
+    .Qualification-content h1{
+        width: 90%;
+        font-size: 24px;
+    }
+    .Qualification-sec-items{
+        width: 90%;
+    }
+    .The-Process-title p{
+        width: 90%;
+    }
+    
+    
+}
+@media screen and (max-width: 767px) {
+    .hero-sec-Management{
+        padding: 50px 0;
+    }
+    .Features-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .The-Process-img img{
+        display: none;
+    }
+    .mobile-img-process{
+        display: block !important;
+    }
+    .Service-Description-sec,.Features-sec,.We-hear-you-sec,.our-solution-sec,.The-Process-sec,.Qualification-sec{
+        padding: 50px 0;
+    }
+    .Features-sec{
+        padding-bottom:5px ;
+    }
+    .hero-content-Management h1{
+        margin-top: 50px;
+    }
+    .hero-content-Management span{
+        top: 130px;
+    }
+    .our-solution-content p{
+        margin-top: 20px;
+    }
+    .We-hear-you-title .css-1c35hjw-MuiPaper-root-MuiAccordion-root.Mui-expanded:first-of-type{
+        margin-top: 0 !important;
+    }
+}

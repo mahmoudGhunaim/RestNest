@@ -1,0 +1,197 @@
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-map-sec{
+    background: url(/Pattern_7.svg),rgba(34, 41, 51, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding-top: 50px;
+
+}
+.contact-form{
+    width: 50%;
+    padding: 50px 30px 0 0;
+}
+.contact-map-sec{
+    height:850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    padding: 20px;
+    width: 800px;
+    margin-left: -35px;
+}
+.contact-form form label:nth-child(1){
+    margin-top: 0;
+}
+.contact-form form label{
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 1);
+    margin-top: 25px;
+}
+.contact-form form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(235, 235, 235, 1)   ;
+    margin-top: 10px;
+    font-family: 'League Spartan';
+    
+    font-size: 18px;
+}
+.contact-form form textarea{
+    border: 1px solid rgba(235, 235, 235, 1)   ;
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    font-family: 'League Spartan';
+    font-size: 18px;
+}
+.contact-form form button{
+    margin-top: 40px;
+    background: rgba(172, 149, 118, 1);
+    padding: 16px 32px 16px 32px;
+    color: rgba(252, 252, 252, 1);
+    font-family: 'Cinzel';
+    font-size: 17px;
+    border: none;
+}
+.contact-map-sec-width{
+    width: 80%;
+  
+}
+.google-mapI{
+    width: 550px !important;
+    margin-top: 32px;
+    height: 400px !important;
+}
+.contact-map-sec-width span{
+    color: rgba(172, 149, 118, 1);
+    font-family: 'League Spartan';
+    font-size: 16px;
+    text-transform: uppercase;
+   
+}
+.contact-map-sec-width h1{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel';
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.data-contact{
+    margin-top: 470px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.data-contact a {
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Spartan';
+    text-decoration: none;
+    line-height: 20px;
+    align-items: center;
+}
+.data-contact a:nth-child(1){
+    align-items: flex-start;
+}
+@media screen and (max-width: 1024px){
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-map-sec{
+        background: url('/Pattern_3 1.svg'),rgba(34, 41, 51, 1);
+        width: 100%;
+        align-items: center;
+    }
+    .google-mapI{
+        width: 80vw !important;
+    }
+    .data-contact{
+        width: auto;
+    }
+    .contact-form form{
+        margin-left: 0;
+        width: 94vw;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .data-contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-form{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .gmnoprint{
+        display: none;
+    }
+    .google-mapI{
+        width: 80vw !important;
+        margin-top: 32px;
+        height: 200px !important;
+    }
+    .google-mapI div{
+        width: 80vw !important;
+        margin-top: 32px;
+        height: 200px !important;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-map-sec{
+        background: url('/Pattern_3 1.svg'),rgba(34, 41, 51, 1);
+        width: 100%;
+        align-items: center;
+    }
+    .google-mapI{
+        width: 300px !important;
+    }
+    .data-contact{
+        width: auto;
+    }
+    .contact-form form{
+        margin-left: 0;
+        width: 89vw;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .data-contact{
+        margin-top: 300px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-map-sec{
+        height: 650px;
+    }
+    .contact-map-sec-width h1{
+        text-align: left;
+    }
+    
+    .contact-form form button{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-form{
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,333 @@
+body{
+    background: rgba(255, 255, 255, 1);;
+}
+.hero-sec{
+    background: url('/Pattern_3 1.svg'),rgba(34, 41, 51, 1);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container{
+    width: 90%;
+}
+.hero-content h1{
+    margin-top: 131px;
+    font-size: 64px;
+    text-align: center;
+    width: 800px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-content p{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Spartan';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 40%;
+}
+.hero-content button{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background: rgba(172, 149, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    border: none;
+    padding: 16px 32px;
+}
+.hero-content span{
+    font-size: 64px;
+    font-family: 'Lavishly Yours';
+    color: rgba(172, 149, 118, 1);
+    position: absolute;
+    position: absolute;
+    top: 250px;
+    right: 30%;
+    rotate: -8.363deg;
+}
+.aboutus-des-contaner {
+    display: flex;
+    justify-content: center;
+}
+.aboutus-des-sec{
+    margin-top: 120px;
+}
+.aboutus-des-title{
+    width: 90%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.aboutus-des-title span{
+    font-family: 'League Spartan';
+    color: rgba(172, 149, 118, 1);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.aboutus-des-title h1{
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    color: rgba(54, 66, 80, 1);
+    font-weight: 400;
+}
+.line-about{
+    border-bottom: 1px solid rgba(172, 149, 118, 1);
+    height: 1px;
+}
+.aboutus-des-p1{
+    margin-top: 70px;
+}
+.aboutus-des-p1,.aboutus-des-p2{
+    color: rgba(34, 41, 51, 1);
+    font-family: 'League Spartan';
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    line-height: 25px;
+}
+.aboutus-des-p2{
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.dual-commitment-section{
+    background: #F8F4F1;
+    display: flex;
+    justify-content: center;
+}
+.dual-commitment-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px;
+}
+.dual-commitment-des{
+    width: 685px;
+}
+.dual-commitment-des span{
+    color: #AC9576;
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 400;
+}
+.dual-commitment-des H1{
+    color: #02275B;
+    margin-top: 10px;
+    font-family: 'Cinzel';
+    font-size: 50px;
+    width: 100%;
+}
+.gold-line{
+    height: 1px;
+    width: 300px;
+    margin-top: 16px;
+    border-top: 1px solid #AC9576;
+}
+.dual-commitment-des p{
+    color: #364250;
+    font-family: 'League Spartan';
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.Meet-Our-Team-sec{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    background: #F8F4F1;
+}
+.Meet-Our-Team-contaner{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    gap: 50px;
+}
+.Meet-Our-Team-des span{
+    color: #AC9576;
+    font-size: 16px;
+    font-family: 'League Spartan';
+}
+.Meet-Our-Team-des h1{
+    color: #364250;
+    font-family: 'Cinzel';
+    font-size: 50px;
+    font-weight: 400;
+    width: 60%;
+}
+.Meet-Our-Team-des p{
+    margin-top: 30px;
+    color: #222933;
+    font-size: 20px;
+    font-family: 'League Spartan';
+    font-weight: 300;
+    line-height: 25px;
+    width: 80%;
+}
+.Meet-Our-Team-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Meet-Our-Team-img h3{
+    font-family: 'Lavishly Yours';
+    font-size: 42px;
+    margin-left: 150px;
+    rotate: -8.36deg;
+    z-index: 100;
+    color: #02275B;
+}
+.footer-sec-about{
+    display: flex;
+    justify-content: center;
+    background: url('/Pattern_1 1.svg'),#364250;
+    padding: 100px 0;
+}
+.footer-container-about{
+width: 90%;
+display: flex;
+justify-content: center;
+}
+.footer-des-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+}
+.footer-des-about h1{
+    font-size: 50px;
+    width: 50%;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: #FCFCFC;
+    text-align: center;
+ }
+ .footer-des-about p{
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 18px;
+    color: #FCFCFC;
+    line-height: 25px;
+    margin-top: 50px;
+    font-weight: 300;
+ }
+ .footer-des-about button{
+    border: none;
+    background: #AC9576;
+    padding: 16px 32px ;
+    font-size: 18px;
+    font-family: 'Cinzel';
+    color: #FCFCFC;
+    margin-top: 50px;
+ }
+ .footer-des-about h3{
+    color: #AC9576;
+    font-weight: 400;
+    font-family: 'Lavishly Yours';
+    font-size: 50px;
+    margin-top: -100px;
+    margin-right: -45%;
+    rotate: -4.71deg;
+    margin-bottom: 50px;
+ }
+ @media screen and (max-width: 1024px) {
+    .gold-line {
+        width: 200px;
+    }
+    .hero-content h1{
+        text-align: center !important;
+        margin-top: 50px;
+        font-size: 38px;
+        width: 100%;
+       
+    }
+    .hero-content span{
+        font-size: 38px;
+        top: 130px;
+    }
+    .hero-content p{
+        width: 100%;
+        text-align: center;
+    }
+    .aboutus-des-title h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .aboutus-des-p1, .aboutus-des-p2{
+        width: 100%;
+        font-weight: 300;
+    }
+    .dual-commitment-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dual-commitment-des H1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .dual-commitment-des{
+        width: 100%;
+    }
+    .dual-commitment-img img{
+        width: 100%;
+    }
+   
+    .Meet-Our-Team-img img{
+        width: 300px;
+    }
+    .Meet-Our-Team-img h3{
+        margin-bottom: -20px;
+    }
+    .Meet-Our-Team-des h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .footer-des-about h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .footer-des-about{
+        width: 100%;
+    }
+    .footer-des-about h3{
+        font-size: 30px;
+        margin-top: -75px;
+    }
+    .footer-des-about p{
+        margin-top: 20px;
+    }
+    .footer-des-about button{
+        font-size: 16px;
+    }
+ }
+ @media screen and (max-width: 767px){
+    .Meet-Our-Team-des p{
+        width: 90%;
+    }
+    .Meet-Our-Team-img img {
+        width: 100%;
+    }
+    .Meet-Our-Team-contaner{
+        flex-direction: column;
+    }
+    .aboutus-des-sec{
+        margin-top: 50px;
+    }
+    .dual-commitment-container{
+        padding: 0px;
+    }
+    .aboutus-des-p2{
+        margin-bottom: 50px;
+    }
+ }

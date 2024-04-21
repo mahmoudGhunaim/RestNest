@@ -1,0 +1,40 @@
+.post-image-container {
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post-date-and-title h1{
+    font-family: 'Cinzel';
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.post-date-and-title {
+    width: 90%;
+    text-align: center;
+}
+.post-content-text-sec{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.post-content-text {
+    width: 90%;
+}
+.post-content-text p,.post-content-text h2,.post-content-text h1,.post-content-text h3,.post-content-text h4,.post-content-text h5,.post-content-text h6{
+    line-height: 30px;
+}
+@media screen and (max-width: 767px){
+    .post-image-container{
+        height: 300px;
+    }
+    .post-date-and-title h1 {
+        font-size: 40px;
+    }
+    .post-content-text-sec{
+        padding: 50px 0;
+    }
+}
